@@ -1,0 +1,57 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Maven target directory
+target/
+
+# Ignore Eclipse project files
+.classpath
+.project
+.settings/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignore Sling specific files
+sling/logs/
+sling/repository/
+sling/launchpad/
+sling/crx-quickstart/
+sling/crx-quickstart/logs/
+sling/crx-quickstart/repository/
+sling/crx-quickstart/launchpad/
+sling/crx-quickstart/install/
+sling/crx-quickstart/install/author/
+sling/crx-quickstart/install/publish/
+sling/crx-quickstart/install/libs/
+sling/crx-quickstart/install/apps/
+sling/crx-quickstart/install/config/
+sling/crx-quickstart/install/config.author/
+sling/crx-quickstart/install/config.publish/
+sling/crx-quickstart/install/config.libs/
+sling/crx-quickstart/install/config.apps/
+sling/crx-quickstart/install/config.config/
+sling/crx-quickstart/install/config.config.author/
+sling/crx-quickstart/install/config.config.publish/
+sling/crx-quickstart/install/config.config.libs/
+sling/crx-quickstart/install/config.config.apps/
